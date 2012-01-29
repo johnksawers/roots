@@ -489,3 +489,73 @@ img.ui-datepicker-trigger { vertical-align: middle; }
   p, h2, h3 { orphans: 3; widows: 3; }
   h2, h3 { page-break-after: avoid; }
 }
+
+/* ==|== custom styles ======================================================= */
+
+body {
+  background-color: #CCCCCC;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 14px;
+}
+
+a {
+  color: orangeRed;
+}
+
+a:visited {
+  color: #999;
+}
+
+a:active {
+  color: red;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: normal;
+}
+
+h1{
+  padding: 0 20px;
+  border-bottom: 1px solid #CCCCCC;
+}
+#nav-main{
+  width:100%;
+}
+#nav-main ul{
+  position: absolute;
+  top:-35px;
+  border-radius: 0;
+  background: -moz-linear-gradient(center top , rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.1)) repeat scroll 0 0 #333333
+}
+#nav-main ul li a{
+  color: orangeRed;
+}
+a.blog_title {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 70px;
+  text-decoration: none;
+  color: orangeRed;
+  background: #E1E1E1;
+  line-height: 70px;
+  padding: 10px 20px;
+  margin: 0;
+}
+
+.pure_post_content{
+  padding: 0 20px;
+}
+
+#main{
+  background: #F5F5F5;
+  /*padding: 0 20px;*/
+  margin: 0;
+}
+footer article {
+  float: left;
+}
+
+.widget {
+  margin-left: 20px;
+  border: 1px solid red;
+}

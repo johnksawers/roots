@@ -10,6 +10,7 @@
 
   <meta name="viewport" content="width=device-width,initial-scale=1">
 
+  <link href='http://fonts.googleapis.com/css?family=PT+Sans|Quicksand:300' rel='stylesheet' type='text/css'>
   <?php roots_stylesheets(); ?>
 
   <link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> Feed" href="<?php echo home_url(); ?>/feed/">
@@ -34,8 +35,8 @@
       <?php roots_header_inside(); ?>
       <div class="container">
 
-        <a id="logo" href="<?php echo home_url(); ?>/">
-          <img src="<?php echo get_header_image(); ?>" width="<?php echo HEADER_IMAGE_WIDTH; ?>" height="<?php echo HEADER_IMAGE_HEIGHT; ?>" alt="<?php bloginfo('name'); ?>">
+        <a class="grid_16 blog_title" href="<?php echo home_url(); ?>/">
+          John K Sawers // Blog
         </a>
 
         <nav id="nav-main" role="navigation">
